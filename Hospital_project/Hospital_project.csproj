@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frm_log_in.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frm_log_in.Designer.cs">
+      <DependentUpon>frm_log_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_patient.Designer.cs">
+      <DependentUpon>frm_patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_sign_up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_sign_up.Designer.cs">
+      <DependentUpon>frm_sign_up.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frm_log_in.resx">
+      <DependentUpon>frm_log_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_patient.resx">
+      <DependentUpon>frm_patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_sign_up.resx">
+      <DependentUpon>frm_sign_up.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

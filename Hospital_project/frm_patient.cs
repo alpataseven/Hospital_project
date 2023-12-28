@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Hospital_project
 {
-    public partial class Form1 : Form
+    public partial class frm_patient : Form
     {
-        public Form1()
+        public frm_patient()
         {
             InitializeComponent();
+        }
+
+        private void frm_patient_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
