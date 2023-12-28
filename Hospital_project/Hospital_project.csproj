@@ -46,6 +46,72 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bilgi_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bilgi_guncelle.Designer.cs">
+      <DependentUpon>bilgi_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyuru.Designer.cs">
+      <DependentUpon>frmDuyuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRandevuListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRandevuListesi.Designer.cs">
+      <DependentUpon>frmRandevuListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSekreterDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSekreterDetay.Designer.cs">
+      <DependentUpon>frmSekreterDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSekreterGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSekreterGiris.Designer.cs">
+      <DependentUpon>frmSekreterGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_bilgi_düzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_bilgi_düzenle.Designer.cs">
+      <DependentUpon>frm_bilgi_düzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_brans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_brans.Designer.cs">
+      <DependentUpon>frm_brans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_dktr_duzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dktr_duzenle.Designer.cs">
+      <DependentUpon>frm_dktr_duzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_doctor_details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_doctor_details.Designer.cs">
+      <DependentUpon>frm_doctor_details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_doktor_giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_doktor_giris.Designer.cs">
+      <DependentUpon>frm_doktor_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_doktor_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_doktor_panel.Designer.cs">
+      <DependentUpon>frm_doktor_panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_log_in.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +124,12 @@
     <Compile Include="frm_patient.Designer.cs">
       <DependentUpon>frm_patient.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_patient_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_patient_detail.Designer.cs">
+      <DependentUpon>frm_patient_detail.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_sign_up.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,11 +138,48 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlConnect.cs" />
+    <EmbeddedResource Include="bilgi_guncelle.resx">
+      <DependentUpon>bilgi_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyuru.resx">
+      <DependentUpon>frmDuyuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRandevuListesi.resx">
+      <DependentUpon>frmRandevuListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSekreterDetay.resx">
+      <DependentUpon>frmSekreterDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSekreterGiris.resx">
+      <DependentUpon>frmSekreterGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_bilgi_düzenle.resx">
+      <DependentUpon>frm_bilgi_düzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_brans.resx">
+      <DependentUpon>frm_brans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_dktr_duzenle.resx">
+      <DependentUpon>frm_dktr_duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_doctor_details.resx">
+      <DependentUpon>frm_doctor_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_doktor_giris.resx">
+      <DependentUpon>frm_doktor_giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_doktor_panel.resx">
+      <DependentUpon>frm_doktor_panel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_log_in.resx">
       <DependentUpon>frm_log_in.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_patient.resx">
       <DependentUpon>frm_patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_patient_detail.resx">
+      <DependentUpon>frm_patient_detail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_sign_up.resx">
       <DependentUpon>frm_sign_up.cs</DependentUpon>

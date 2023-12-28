@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace Hospital_project
 {
-    public partial class frm_patient : Form
+    public partial class frmSekreterDetay : Form
     {
-        public frm_patient()
+        public frmSekreterDetay()
         {
             InitializeComponent();
         }
 
-        private void frm_patient_Load(object sender, EventArgs e)
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
-            frm_hasta_kayit fr = new frm_hasta_kayit();
-            fr.Show();
+
         }
     }
 }

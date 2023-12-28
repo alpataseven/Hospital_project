@@ -31,5 +31,26 @@ namespace Hospital_project
         {
 
         }
+
+        private void btnHastaGirisi_Click(object sender, EventArgs e)
+        {
+            frm_patient fr = new frm_patient();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void btnDoktorGirisi_Click(object sender, EventArgs e)
+        {
+            frm_doktor_giris fr = new frm_doktor_giris();
+            fr.Show();
+            this.Hide();
+        }
+
+        private void btnSekreterGirisi_Click(object sender, EventArgs e)
+        {
+            frmSekreterGiris fr = new frmSekreterGiris();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

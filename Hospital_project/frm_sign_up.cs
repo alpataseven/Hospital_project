@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Hospital_project
 {
-    public partial class frm_sign_up : Form
+    public partial class frm_hasta_kayit : Form
     {
-        public frm_sign_up()
+        public frm_hasta_kayit()
         {
             InitializeComponent();
         }
@@ -23,6 +24,12 @@ namespace Hospital_project
         }
 
         private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        sqlConnect bgl = new sqlConnect();
+        private void sign_up_Click(object sender, EventArgs e)
         {
 
         }
